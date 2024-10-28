@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cosmetic Products Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="logo.png" alt="logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home" class="hero-section">
+        <div class="container">
+            <h1>Find Your Perfect Beauty Products</h1>
+            <p>Explore our exclusive collection of cosmetics</p>
+            <input type="text" id="search-bar" placeholder="Search for a product..." onkeyup="searchProducts()">
+        </div>
+    </header>
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div id="product-list" class="row">
+                <div class="col product-item" data-name="Lipstick">
+                    <img src="Lipstick.avif" alt="Lipstick">
+                    <h4>Lipstick</h4>
+                    <p>$12.99</p>
+                </div>
+                <div class="col product-item" data-name="Foundation">
+                    <img src="foundation.jpg" alt="Foundation">
+                    <h4>Foundation</h4>
+                    <p>$25.99</p>
+                </div>
+                <div class="col product-item" data-name="Mascara">
+                    <img src="blush.jpg" alt="Mascara">
+                    <h4>Blush</h4>
+                    <p>$15.99</p>
+                </div>
+                <div class="col product-item" data-name="Eyeshadow">
+                    <img src="highliter.webp" alt="Eyeshadow">
+                    <h4>Eyeshadow</h4>
+                    <p>$15.99</p>
+                </div>
+                <div class="col product-item" data-name="Perfume">
+                    <img src="Perfume.webp" alt="Perfume">
+                    <h4>Perfume</h4>
+                    <p>$55.99</p>
+                </div>
+                <div class="col product-item" data-name="Eyeshadow">
+                    <img src="primer.jpg" alt="Eyeshadow">
+                    <h4>Primer</h4>
+                    <p>$15.99</p>
+                </div>
+                <div class="col product-item" data-name="Eyeshadow">
+                    <img src="brush.webp" alt="Eyeshadow">
+                    <h4>Make Brushes</h4>
+                    <p>$15.99</p>
+                </div>
+                <div class="col product-item" data-name="Eyeshadow">
+                    <img src="mos.webp" alt="Eyeshadow">
+                    <h4>Mosturiser</h4>
+                    <p>$15.99</p>
+                </div>
+                <div class="col product-item" data-name="Eyeshadow">
+                    <img src="eyeliner.jpg" alt="Eyeshadow">
+                    <h4>Eyeliner</h4>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Contact No: +91 7574949494</p>
+        <p>Address:Gyanmanjari Innovative University, Sidsar Road, Bhavnagar, Gujarat.</p>
+        <p>Email:info@gmiu.edu.in</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
